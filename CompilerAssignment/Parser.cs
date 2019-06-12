@@ -29,8 +29,11 @@ namespace CompilerAssignment
             Scanner S = new Scanner(Sentence);
 
             TokenList = S.getTokens();
-            CurTokenPos = -1; FetchNextToken();
-            Expression P = parseExpression();
+            CurTokenPos = -1;
+            FetchNextToken();
+
+            Command P = parseCommand();
+            //Expression P = parseExpression();
         }
 
         void FetchNextToken()
@@ -72,6 +75,7 @@ namespace CompilerAssignment
             PrimaryExpression PE;
             if (CurrentToken == null)
                 return null;
+
             switch (CurrentToken.getType())
             {
                 case Identifier:
@@ -110,6 +114,7 @@ namespace CompilerAssignment
         Declaration parseDeclaration()
         {
             //I'm not sure how to parse a declaration or if we need to?
+            FetchNextToken();
             return null;
         }
 
@@ -122,7 +127,7 @@ namespace CompilerAssignment
             switch (CurrentToken.getType())
             {
                 case If:
-                    acceptIt();
+                    accept(If);
                     Expression E = parseExpression();
                     accept(Then);
                     Command C1 = parseCommand();
@@ -139,7 +144,7 @@ namespace CompilerAssignment
                     break;
 
                 case Let:
-                    acceptIt();
+                    accept(Let);
                     Declaration D = parseDeclaration();
                     accept(In);
                     Command C3 = parseCommand();

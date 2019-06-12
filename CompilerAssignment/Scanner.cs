@@ -18,7 +18,8 @@ namespace CompilerAssignment
         const int In = 10;
 
         ArrayList TokenList = new ArrayList();
-        String Sentence; int curPos;
+        String Sentence;
+        int curPos;
 
         public Scanner(String S)
         {
