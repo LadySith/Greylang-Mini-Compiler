@@ -47,7 +47,7 @@ namespace CompilerAssignment
             if (CurrentToken.matchesType(Type))
                 FetchNextToken();
             else
-                Console.WriteLine("Syntax Error in accept");
+                Console.WriteLine("Syntax Error in accept for token: " + CurrentToken.getSpelling());
 
         }
 
@@ -84,7 +84,7 @@ namespace CompilerAssignment
                     accept(RPar);
                     break;
                 default:
-                    Console.WriteLine("Syntax Error in Primary");
+                    Console.WriteLine("Syntax Error in Primary at token: " + CurrentToken.getSpelling());
                     PE = null;
                     break;
             }
@@ -147,7 +147,7 @@ namespace CompilerAssignment
                     break;
 
                 default:
-                    Console.WriteLine("Syntax Error in Command");
+                    Console.WriteLine("Syntax Error in Command at token: " + CurrentToken.getSpelling());
                     C = null;
                     break;
 

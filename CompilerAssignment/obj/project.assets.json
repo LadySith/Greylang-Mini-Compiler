@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\BSC HONOURS\\COMPILER CONSTRUCTION (WHWV401)\\CompilerAssignment\\CompilerAssignment\\CompilerAssignment\\CompilerAssignment.csproj",
+      "projectUniqueName": "D:\\Github\\Greylang-Mini-Compiler\\CompilerAssignment\\CompilerAssignment.csproj",
       "projectName": "CompilerAssignment",
-      "projectPath": "D:\\BSC HONOURS\\COMPILER CONSTRUCTION (WHWV401)\\CompilerAssignment\\CompilerAssignment\\CompilerAssignment\\CompilerAssignment.csproj",
+      "projectPath": "D:\\Github\\Greylang-Mini-Compiler\\CompilerAssignment\\CompilerAssignment.csproj",
       "packagesPath": "C:\\Users\\Sithe\\.nuget\\packages\\",
-      "outputPath": "D:\\BSC HONOURS\\COMPILER CONSTRUCTION (WHWV401)\\CompilerAssignment\\CompilerAssignment\\CompilerAssignment\\obj\\",
+      "outputPath": "D:\\Github\\Greylang-Mini-Compiler\\CompilerAssignment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

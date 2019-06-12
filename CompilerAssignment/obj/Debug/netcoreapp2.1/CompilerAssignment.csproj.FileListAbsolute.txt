@@ -9,3 +9,14 @@ D:\BSC HONOURS\COMPILER CONSTRUCTION (WHWV401)\CompilerAssignment\CompilerAssign
 D:\BSC HONOURS\COMPILER CONSTRUCTION (WHWV401)\CompilerAssignment\CompilerAssignment\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.AssemblyInfo.cs
 D:\BSC HONOURS\COMPILER CONSTRUCTION (WHWV401)\CompilerAssignment\CompilerAssignment\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.dll
 D:\BSC HONOURS\COMPILER CONSTRUCTION (WHWV401)\CompilerAssignment\CompilerAssignment\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.pdb
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\bin\Debug\netcoreapp2.1\CompilerAssignment.deps.json
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\bin\Debug\netcoreapp2.1\CompilerAssignment.runtimeconfig.json
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\bin\Debug\netcoreapp2.1\CompilerAssignment.runtimeconfig.dev.json
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\bin\Debug\netcoreapp2.1\CompilerAssignment.dll
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\bin\Debug\netcoreapp2.1\CompilerAssignment.pdb
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.csprojAssemblyReference.cache
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.csproj.CoreCompileInputs.cache
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.AssemblyInfoInputs.cache
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.AssemblyInfo.cs
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.dll
+D:\Github\Greylang-Mini-Compiler\CompilerAssignment\obj\Debug\netcoreapp2.1\CompilerAssignment.pdb
