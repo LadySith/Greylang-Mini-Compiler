@@ -34,6 +34,7 @@ namespace CompilerAssignment
 
             Command P = parseCommand();
             //Expression P = parseExpression();
+            Console.WriteLine("Syntax approved");
         }
 
         void FetchNextToken()

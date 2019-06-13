@@ -13,7 +13,10 @@ namespace CompilerAssignment
             //Parser P = new Parser("a := b + b");
 
             //Testing Let Command
-            Parser P = new Parser("let a in b := a + b");
+            //Parser P = new Parser("let a in b := a + b");
+
+            //Testing nested commands
+            Parser P = new Parser("let b in if a + b then let a in b := a + b else a := c + d");
 
             Console.ReadLine();
         }
