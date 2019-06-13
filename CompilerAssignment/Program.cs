@@ -10,7 +10,7 @@ namespace CompilerAssignment
             //Parser P = new Parser("if a + b then a := b + b else a := c + d");
 
             //Testing Assign Command
-            //Parser P = new Parser("a := b + b");
+            //Parser P = new Parser("a := b + c");
 
             //Testing Let Command
             //Parser P = new Parser("let a in b := a + b");

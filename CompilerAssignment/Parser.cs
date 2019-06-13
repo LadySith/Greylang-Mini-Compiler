@@ -34,7 +34,6 @@ namespace CompilerAssignment
 
             Command P = parseCommand();
             //Expression P = parseExpression();
-            Console.WriteLine("Syntax approved");
         }
 
         void FetchNextToken()
@@ -160,6 +159,12 @@ namespace CompilerAssignment
             }
 
             return C;
+        }
+
+        public ArrayList getParsedTokens()
+        {
+            
+            return TokenList;
         }
 
     }
